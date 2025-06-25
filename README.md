@@ -34,6 +34,7 @@ If within a transaction:
 BEGIN TRANSACTION;
 DELETE FROM Employees WHERE EmployeeID = 2;
 ROLLBACK; -- This will undo the delete
+
 8. Can we insert values into specific columns only?
 
 Yes.
